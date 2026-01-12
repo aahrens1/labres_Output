@@ -1,0 +1,38 @@
+
+\begingroup
+\centering
+\begin{tabular}{lcccccc}
+   \tabularnewline \midrule \midrule
+   Dependent Variable: & \multicolumn{6}{c}{labor\_income20}\\
+   Model:                                & (1)            & (2)       & (3)             & (4)       & (5)             & (6)\\  
+   \midrule
+   \emph{Variables}\\
+   Employment ban                        & 0.0015         & 0.0031    & 0.0094          & 0.0044    & 0.0073          & 0.0040\\   
+                                         & (0.0062)       & (0.0054)  & (0.0081)        & (0.0054)  & (0.0088)        & (0.0055)\\   
+   Priority enforced                     & 0.0135         & 0.0049    & 0.0170          & 0.0110    & 0.0366          & 0.0196\\   
+                                         & (0.0141)       & (0.0100)  & (0.0123)        & (0.0090)  & (0.0242)        & (0.0129)\\   
+   Share restricted jobs                 & 0.0495         & 0.0378    & -0.0734$^{**}$  & 0.0093    & -0.0115         & 0.0676\\   
+                                         & (0.0302)       & (0.0255)  & (0.0275)        & (0.0219)  & (0.0566)        & (0.0406)\\   
+   June 2007 $\times$ Priority enforced  & -0.0219$^{**}$ & 0.0040    & -0.0336$^{***}$ & 0.0028    & -0.0394$^{***}$ & 0.0023\\   
+                                         & (0.0086)       & (0.0079)  & (0.0098)        & (0.0086)  & (0.0128)        & (0.0089)\\   
+   Policy                                & N              & N         & TAF             & TAF       & Mix             & Mix\\  
+   Outcome mean                          & 0.6160         & 0.6160    & 0.6160          & 0.6160    & 0.6160          & 0.6160\\  
+   Num. individuals                      & 45,045         & 45,045    & 45,045          & 45,045    & 45,045          & 45,045\\  
+   \midrule
+   \emph{Fixed-effects}\\
+   mon\_since\_ges\_f                    & Yes            & Yes       & Yes             & Yes       & Yes             & Yes\\  
+   canton\_residence\_f                  & Yes            &           & Yes             &           & Yes             & \\  
+   month\_f                              & Yes            & Yes       & Yes             & Yes       & Yes             & Yes\\  
+   PERS\_ID                              &                & Yes       &                 & Yes       &                 & Yes\\  
+   \midrule
+   \emph{Fit statistics}\\
+   Observations                          & 1,979,002      & 1,979,002 & 1,979,002       & 1,979,002 & 1,977,099       & 1,977,099\\  
+   R$^2$                                 & 0.07892        & 0.51861   & 0.07907         & 0.51859   & 0.07907         & 0.51887\\  
+   Within R$^2$                          & 0.06183        & 0.00514   & 0.06197         & 0.00511   & 0.06193         & 0.00519\\  
+   \midrule \midrule
+   \multicolumn{7}{l}{\emph{Clustered (canton\_residence) standard-errors in parentheses}}\\
+   \multicolumn{7}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
+\end{tabular}
+\par\endgroup
+
+

@@ -1,0 +1,45 @@
+
+\begingroup
+\centering
+\begin{tabular}{lccccc}
+   \tabularnewline \midrule \midrule
+   Dependent Variable: & \multicolumn{5}{c}{j2j\_jobchangeEE}\\
+   Model:                                         & (1)                   & (2)                   & (3)                   & (4)                   & (5)\\  
+   \midrule
+   \emph{Variables}\\
+   Log earnings                                   & -0.0004               & -0.0006$^{**}$        & -0.0005               & -0.0007$^{***}$       & -0.0005\\   
+                                                  & (0.0002)              & (0.0002)              & (0.0003)              & (0.0002)              & (0.0004)\\   
+   Priority enforced                              &                       & -0.0073               &                       &                       & -0.0065\\   
+                                                  &                       & (0.0044)              &                       &                       & (0.0041)\\   
+   Log earnings $\times$ Priority enforced        &                       & 0.0008                &                       &                       & 0.0007\\   
+                                                  &                       & (0.0005)              &                       &                       & (0.0005)\\   
+   Any region restrictions                        &                       &                       & -0.0034               &                       & 0.0106\\   
+                                                  &                       &                       & (0.0069)              &                       & (0.0070)\\   
+   Log earnings $\times$ Any region restrictions  &                       &                       & 0.0003                &                       & -0.0013\\   
+                                                  &                       &                       & (0.0007)              &                       & (0.0008)\\   
+   Any sector restrictions                        &                       &                       &                       & -0.0187$^{***}$       & -0.0231$^{***}$\\   
+                                                  &                       &                       &                       & (0.0041)              & (0.0061)\\   
+   Log earnings $\times$ Any sector restrictions  &                       &                       &                       & 0.0022$^{***}$        & 0.0027$^{***}$\\   
+                                                  &                       &                       &                       & (0.0005)              & (0.0007)\\   
+   Elasticity with restriction                    & -0.1173*              &  0.0710               & -0.0457               &  0.4573***            &  0.4948***\\  
+                                                  & (0.0700)              & (0.1531)              & (0.1691)              & (0.1492)              & (0.1628)\\  
+   Elasticity without restriction                 & -0.1173*              & -0.1893***            & -0.1540               & -0.2124***            & -0.1625\\  
+                                                  & (0.0700)              & (0.0685)              & (0.1065)              & (0.0752)              & (0.1089)\\  
+   Outcome mean                                   & 0.0032                & 0.0032                & 0.0032                & 0.0032                & 0.0032\\  
+   \midrule
+   \emph{Fixed-effects}\\
+   mon\_since\_ges\_f                             & Yes                   & Yes                   & Yes                   & Yes                   & Yes\\  
+   PERS\_ID                                       & Yes                   & Yes                   & Yes                   & Yes                   & Yes\\  
+   month\_f                                       & Yes                   & Yes                   & Yes                   & Yes                   & Yes\\  
+   \midrule
+   \emph{Fit statistics}\\
+   Observations                                   & 11,307,611            & 11,306,164            & 11,307,611            & 11,307,611            & 11,306,164\\  
+   R$^2$                                          & 0.11698               & 0.11698               & 0.11698               & 0.11698               & 0.11699\\  
+   Within R$^2$                                   & $4.62\times 10^{-6}$  & $5.96\times 10^{-6}$  & $4.89\times 10^{-6}$  & $1.13\times 10^{-5}$  & $1.36\times 10^{-5}$\\   
+   \midrule \midrule
+   \multicolumn{6}{l}{\emph{Clustered (canton\_residence) standard-errors in parentheses}}\\
+   \multicolumn{6}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
+\end{tabular}
+\par\endgroup
+
+

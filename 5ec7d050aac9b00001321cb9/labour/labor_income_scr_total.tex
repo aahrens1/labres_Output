@@ -1,0 +1,42 @@
+
+\begingroup
+\centering
+\begin{tabular}{lccccccc}
+   \tabularnewline \midrule \midrule
+   Dependent Variable: & \multicolumn{7}{c}{labor\_income}\\
+   Model:                             & (1)             & (2)             & (3)             & (4)             & (5)             & (6)             & (7)\\  
+   \midrule
+   \emph{Variables}\\
+   Employment ban                     & -0.7063$^{***}$ & -1.896          & -0.8930$^{***}$ & -0.6880$^{***}$ & -0.6822$^{***}$ & -1.174$^{***}$  & -0.6043$^{***}$\\   
+                                      & (0.1801)        & (1.177)         & (0.1260)        & (0.1651)        & (0.1689)        & (0.1846)        & (0.0759)\\   
+   Priority enforced                  & -0.3920$^{***}$ & -0.7403$^{***}$ & -0.9303$^{***}$ & -0.4487$^{***}$ & -0.4490$^{***}$ & -0.3737$^{***}$ & -0.2219$^{**}$\\   
+                                      & (0.0620)        & (0.1667)        & (0.1780)        & (0.0589)        & (0.0570)        & (0.0696)        & (0.0974)\\   
+   Share restricted jobs              & -0.6313$^{***}$ & 0.1273          & -0.1173         & -0.5282$^{**}$  & -0.6259$^{***}$ & -0.6290$^{***}$ & -0.2076\\   
+                                      & (0.2253)        & (0.5504)        & (0.3873)        & (0.2072)        & (0.2349)        & (0.1559)        & (0.2605)\\   
+   Outcome mean                       & 510.5           & 378.5           & 340.0           & 451.7           & 451.7           & 962.0           & 610.1\\  
+   Num. individuals                   & 41,253          & 6,516           & 20,182          & 67,951          & 68,006          & 23,370          & 42,962\\  
+   Canton FE                          & Yes             & Yes             & Yes             & Yes             & Yes             &                 & Yes\\  
+   Month FE                           & Yes             & Yes             & Yes             & Yes             & Yes             & Yes             & Yes\\  
+   Individual FE                      &                 &                 &                 &                 &                 & Yes             & \\  
+   Months-since-arrival FE x status   & Yes             & Yes             & Yes             & Yes             & Yes             & Yes             & Yes\\  
+   Months-since-arrival FE            &                 &                 &                 &                 &                 &                 & \\  
+   Additional controls                & Yes             & Yes             & Yes             & Yes             &                 &                 & Yes\\  
+   \midrule
+   \emph{Fixed-effects}\\
+   mon\_since\_ges\_f\_status\_f      & Yes             & Yes             & Yes             & Yes             & Yes             & Yes             & Yes\\  
+   Canton FE                          & Yes             & Yes             & Yes             & Yes             & Yes             &                 & Yes\\  
+   Month FE                           & Yes             & Yes             & Yes             & Yes             & Yes             & Yes             & Yes\\  
+   Individual FE                      &                 &                 &                 &                 &                 & Yes             & \\  
+   \midrule
+   \emph{Fit statistics}\\
+   Observations                       & 1,792,751       & 249,246         & 774,159         & 2,817,483       & 2,818,207       & 1,323,232       & 1,560,178\\  
+   Squared Correlation                & 0.20249         & 0.27706         & 0.21841         & 0.20211         & 0.15945         & 0.56715         & 0.17451\\  
+   Pseudo R$^2$                       & 0.31518         & 0.42960         & 0.37151         & 0.32958         & 0.28498         & 0.58590         & 0.24806\\  
+   BIC                                & 0.8             & 229,040,553.2   & 720,224,697.3   & 0.8             & 0.9             & 1,256,831,956.7 & 0.7\\  
+   \midrule \midrule
+   \multicolumn{8}{l}{\emph{Clustered (canton\_status) standard-errors in parentheses}}\\
+   \multicolumn{8}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
+\end{tabular}
+\par\endgroup
+
+

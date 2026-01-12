@@ -1,0 +1,44 @@
+
+\begingroup
+\centering
+\begin{tabular}{lccccccc}
+   \tabularnewline \midrule \midrule
+   Dependent Variable: & \multicolumn{7}{c}{employed\_ahv}\\
+   Model:                             & (1)             & (2)             & (3)             & (4)             & (5)             & (6)             & (7)\\  
+   \midrule
+   \emph{Variables}\\
+   Employment ban                     & -0.0616$^{***}$ & -0.0797$^{***}$ & -0.0399$^{***}$ & -0.0602$^{***}$ & -0.0579$^{***}$ & -0.0395$^{***}$ & -0.0770$^{***}$\\   
+                                      & (0.0067)        & (0.0172)        & (0.0109)        & (0.0061)        & (0.0072)        & (0.0076)        & (0.0073)\\   
+   Priority enforced                  & -0.0437$^{***}$ & -0.0500$^{*}$   & -0.0448$^{***}$ & -0.0429$^{***}$ & -0.0388$^{***}$ & -0.0055         & -0.0459$^{**}$\\   
+                                      & (0.0105)        & (0.0249)        & (0.0156)        & (0.0089)        & (0.0098)        & (0.0073)        & (0.0229)\\   
+   Share sector restricted jobs       & -0.0570         & -0.0515$^{*}$   & -0.0341         & -0.0538$^{*}$   & -0.0592$^{*}$   & -0.0391$^{*}$   & -0.0366\\   
+                                      & (0.0418)        & (0.0292)        & (0.0278)        & (0.0285)        & (0.0339)        & (0.0204)        & (0.0493)\\   
+   Share region restricted jobs       & -0.0794         & -0.3191$^{***}$ & -0.3284$^{***}$ & -0.1607$^{**}$  & -0.1250$^{*}$   & -0.2140$^{***}$ & 0.7976$^{**}$\\   
+                                      & (0.0637)        & (0.0786)        & (0.0909)        & (0.0609)        & (0.0660)        & (0.0422)        & (0.3583)\\   
+   Outcome mean                       & 0.1913          & 0.1473          & 0.1495          & 0.1759          & 0.1759          & 0.1759          & 0.2250\\  
+   Num. individuals                   & 41,253          & 6,516           & 20,182          & 67,951          & 68,006          & 68,006          & 42,965\\  
+                                      & [0.3133]        & [0.2272]        & [0.3363]        & [0.1832]        & [0.1992]        & [0.1882]        & [0.6056]\\  
+   Canton FE                          & Yes             & Yes             & Yes             & Yes             & Yes             &                 & Yes\\  
+   Month FE                           & Yes             & Yes             & Yes             & Yes             & Yes             & Yes             & Yes\\  
+   Individual FE                      &                 &                 &                 &                 &                 & Yes             & \\  
+   Months-since-arrival FE x status   & Yes             & Yes             & Yes             & Yes             & Yes             & Yes             & Yes\\  
+   Months-since-arrival FE            &                 &                 &                 &                 &                 &                 & \\  
+   Additional controls                & Yes             & Yes             & Yes             & Yes             &                 &                 & Yes\\  
+   \midrule
+   \emph{Fixed-effects}\\
+   mon\_since\_ges\_f\_status\_f      & Yes             & Yes             & Yes             & Yes             & Yes             & Yes             & Yes\\  
+   Canton FE                          & Yes             & Yes             & Yes             & Yes             & Yes             &                 & Yes\\  
+   Month FE                           & Yes             & Yes             & Yes             & Yes             & Yes             & Yes             & Yes\\  
+   Individual FE                      &                 &                 &                 &                 &                 & Yes             & \\  
+   \midrule
+   \emph{Fit statistics}\\
+   Observations                       & 1,793,924       & 249,564         & 774,159         & 2,817,647       & 2,818,371       & 2,818,371       & 1,560,241\\  
+   R$^2$                              & 0.17337         & 0.23212         & 0.19297         & 0.17664         & 0.15081         & 0.51918         & 0.15011\\  
+   Within R$^2$                       & 0.07466         & 0.05926         & 0.06600         & 0.06582         & 0.03661         & 0.01309         & 0.08681\\  
+   \midrule \midrule
+   \multicolumn{8}{l}{\emph{Clustered (canton\_status) standard-errors in parentheses}}\\
+   \multicolumn{8}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
+\end{tabular}
+\par\endgroup
+
+

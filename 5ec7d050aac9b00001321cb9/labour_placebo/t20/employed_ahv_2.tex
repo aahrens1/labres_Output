@@ -1,0 +1,38 @@
+
+\begingroup
+\centering
+\begin{tabular}{lcccc}
+   \tabularnewline \midrule \midrule
+   Dependent Variable: & \multicolumn{4}{c}{employed\_ahv}\\
+   Model:                                & (1)           & (2)      & (3)      & (4)\\  
+   \midrule
+   \emph{Variables}\\
+   Employment ban                        & -0.0062       & -0.0033  & -0.0069  & 0.0003\\   
+                                         & (0.0161)      & (0.0133) & (0.0131) & (0.0145)\\   
+   Priority enforced                     & -0.0095       & 0.0187   & 0.0136   & -0.0417\\   
+                                         & (0.0222)      & (0.0273) & (0.0343) & (0.0474)\\   
+   Share restricted jobs                 & 0.0811$^{**}$ & 0.0301   & 0.1197   & 0.0011\\   
+                                         & (0.0354)      & (0.0473) & (0.0761) & (0.1140)\\   
+   June 2007 $\times$ Priority enforced  & -0.0068       & -0.0226  & -0.0155  & -0.0065\\   
+                                         & (0.0303)      & (0.0264) & (0.0331) & (0.0430)\\   
+   Policy                                & N             & TAF      & Mix      & Mix\\  
+   Outcome mean                          & 0.7637        & 0.7637   & 0.7638   & 0.7638\\  
+   Num. individuals                      & 3,074         & 3,074    & 3,074    & 3,074\\  
+   \midrule
+   \emph{Fixed-effects}\\
+   mon\_since\_ges\_f                    & Yes           & Yes      & Yes      & Yes\\  
+   canton\_residence\_f                  & Yes           & Yes      & Yes      & \\  
+   month\_f                              & Yes           & Yes      & Yes      & Yes\\  
+   PERS\_ID                              &               &          &          & Yes\\  
+   \midrule
+   \emph{Fit statistics}\\
+   Observations                          & 134,313       & 134,313  & 134,188  & 134,188\\  
+   R$^2$                                 & 0.03064       & 0.03052  & 0.03054  & 0.36548\\  
+   Within R$^2$                          & 0.00859       & 0.00847  & 0.00847  & 0.00661\\  
+   \midrule \midrule
+   \multicolumn{5}{l}{\emph{Clustered (canton\_residence) standard-errors in parentheses}}\\
+   \multicolumn{5}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
+\end{tabular}
+\par\endgroup
+
+

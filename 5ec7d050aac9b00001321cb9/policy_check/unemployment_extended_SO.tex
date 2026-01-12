@@ -1,0 +1,38 @@
+
+\begingroup
+\centering
+\begin{tabular}{lccc}
+   \tabularnewline \midrule \midrule
+   Dependent Variables:                 & I(p\_block\_num>3)   & scr\_total\_restr   & p\_prio\_binary\\    
+   Model:                               & (1)                  & (2)                 & (3)\\  
+   \midrule
+   \emph{Variables}\\
+   Current unemployment                 & 0.8444$^{*}$         & -0.2524             & 0.2530\\   
+                                        & (0.4940)             & (0.4040)            & (1.453)\\   
+   Current refugee unemployment         & 0.4359$^{**}$        & -0.0176             & 0.1974\\   
+                                        & (0.1834)             & (0.0280)            & (0.1570)\\   
+   Avg. overall unemployment 1-12m ago  & -0.3384              & 0.0816              & -0.3655\\   
+                                        & (1.432)              & (0.2682)            & (1.117)\\   
+   Avg. overall unemployment 13-24m ago & 4.997$^{***}$        & 0.6427              & 1.768\\   
+                                        & (1.850)              & (0.4223)            & (2.205)\\   
+   Avg. refugee unemployment 1-12m ago  & 0.5063$^{***}$       & 0.0049              & 0.0575\\   
+                                        & (0.1827)             & (0.0245)            & (0.1136)\\   
+   Avg. refugee unemployment 13-24m ago & -0.2760$^{*}$        & 0.0968$^{*}$        & 0.1550\\   
+                                        & (0.1602)             & (0.0500)            & (0.2393)\\   
+   Joint $F$-test ($p$-value)           & 0.002                & 0.224               & 0.598\\  
+   \midrule
+   \emph{Fixed-effects}\\
+   Canton x status FE                   & Yes                  & Yes                 & Yes\\  
+   Month FE                             & Yes                  & Yes                 & Yes\\  
+   \midrule
+   \emph{Fit statistics}\\
+   Observations                         & 17,664               & 17,856              & 17,856\\  
+   R$^2$                                & 0.57593              & 0.90034             & 0.81425\\  
+   Within R$^2$                         & 0.04014              & 0.00628             & 0.00571\\  
+   \midrule \midrule
+   \multicolumn{4}{l}{\emph{Clustered (Canton x status FE) standard-errors in parentheses}}\\
+   \multicolumn{4}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
+\end{tabular}
+\par\endgroup
+
+

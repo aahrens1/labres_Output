@@ -1,0 +1,40 @@
+
+\begingroup
+\centering
+\begin{tabular}{lccc}
+   \tabularnewline \midrule \midrule
+   Dependent Variable: & \multicolumn{3}{c}{log\_income}\\
+   Model:                             & (1)             & (2)             & (3)\\  
+   \midrule
+   \emph{Variables}\\
+   Employment ban                     & -0.3251$^{***}$ & -0.3575$^{***}$ & -0.3176$^{***}$\\   
+                                      & (0.0599)        & (0.0576)        & (0.0612)\\   
+   Priority enforced                  & -0.0817$^{*}$   &                 & -0.0857$^{*}$\\   
+                                      & (0.0455)        &                 & (0.0429)\\   
+   Share restricted jobs              & -0.3154$^{**}$  & -0.3255$^{**}$  &   \\   
+                                      & (0.1136)        & (0.1242)        &   \\   
+   Outcome mean                       & 2,679.8         & 2,679.8         & 2,679.8\\  
+   Num. individuals                   & 14,751          & 14,751          & 14,751\\  
+   Canton FE                          & Yes             & Yes             & Yes\\  
+   Month FE                           & Yes             & Yes             & Yes\\  
+   Individual FE                      &                 &                 & \\  
+   Months-since-arrival FE x status   & Yes             & Yes             & Yes\\  
+   Months-since-arrival FE            &                 &                 & \\  
+   Additional controls                & Yes             & Yes             & Yes\\  
+   \midrule
+   \emph{Fixed-effects}\\
+   mon\_since\_ges\_f\_status\_f      & Yes             & Yes             & Yes\\  
+   Canton FE                          & Yes             & Yes             & Yes\\  
+   Month FE                           & Yes             & Yes             & Yes\\  
+   \midrule
+   \emph{Fit statistics}\\
+   Observations                       & 341,498         & 341,498         & 341,498\\  
+   R$^2$                              & 0.18057         & 0.18010         & 0.17984\\  
+   Within R$^2$                       & 0.09687         & 0.09635         & 0.09606\\  
+   \midrule \midrule
+   \multicolumn{4}{l}{\emph{Clustered (canton\_status) standard-errors in parentheses}}\\
+   \multicolumn{4}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
+\end{tabular}
+\par\endgroup
+
+

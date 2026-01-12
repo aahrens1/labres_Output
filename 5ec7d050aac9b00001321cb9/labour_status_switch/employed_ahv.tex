@@ -1,0 +1,36 @@
+
+\begingroup
+\centering
+\begin{tabular}{lcccccccc}
+   \tabularnewline \midrule \midrule
+   Dependent Variable: & \multicolumn{8}{c}{employed\_ahv}\\
+   Model:                             & (1)             & (2)             & (3)             & (4)             & (5)             & (6)             & (7)            & (8)\\  
+   \midrule
+   \emph{Variables}\\
+   Employment ban                     & -0.0629$^{***}$ & -0.0784$^{***}$ & -0.0340$^{**}$  & -0.0617$^{***}$ & -0.0444$^{***}$ & -0.0483$^{**}$  & -0.0138        & -0.0389$^{***}$\\   
+                                      & (0.0056)        & (0.0230)        & (0.0155)        & (0.0082)        & (0.0050)        & (0.0201)        & (0.0081)       & (0.0090)\\   
+   Priority enforced                  & -0.0510$^{***}$ & -0.0478$^{**}$  & -0.0475$^{**}$  & -0.0483$^{***}$ & -0.0039         & -0.0087         & -0.0169        & -0.0060\\   
+                                      & (0.0125)        & (0.0215)        & (0.0187)        & (0.0100)        & (0.0081)        & (0.0141)        & (0.0155)       & (0.0076)\\   
+   Share restricted jobs              & -0.0440         & -0.0838$^{**}$  & -0.0819$^{***}$ & -0.0637$^{**}$  & -0.0492$^{**}$  & -0.0881$^{***}$ & -0.0666$^{**}$ & -0.0614$^{***}$\\   
+                                      & (0.0393)        & (0.0328)        & (0.0286)        & (0.0273)        & (0.0226)        & (0.0297)        & (0.0272)       & (0.0177)\\   
+   Outcome mean                       & 0.1767          & 0.1597          & 0.1586          & 0.1695          & 0.1767          & 0.1597          & 0.1586         & 0.1695\\  
+   Num. individuals                   & 33,219          & 5,327           & 15,555          & 54,101          & 33,219          & 5,327           & 15,555         & 54,101\\  
+   Sample                             & N->TAF          & N->TAR          & N->B            & All             & N->TAF          & N->TAR          & N->B           & All\\  
+   \midrule
+   \emph{Fixed-effects}\\
+   mon\_since\_ges\_f\_status\_f      & Yes             & Yes             & Yes             & Yes             & Yes             & Yes             & Yes            & Yes\\  
+   Canton FE                          & Yes             & Yes             & Yes             & Yes             &                 &                 &                & \\  
+   Month FE                           & Yes             & Yes             & Yes             & Yes             & Yes             & Yes             & Yes            & Yes\\  
+   Individual FE                      &                 &                 &                 &                 & Yes             & Yes             & Yes            & Yes\\  
+   \midrule
+   \emph{Fit statistics}\\
+   Observations                       & 1,268,660       & 205,017         & 664,201         & 2,137,878       & 1,268,660       & 205,017         & 664,201        & 2,137,878\\  
+   R$^2$                              & 0.17188         & 0.21680         & 0.18408         & 0.17110         & 0.55359         & 0.53649         & 0.49769        & 0.53361\\  
+   Within R$^2$                       & 0.07715         & 0.05937         & 0.06670         & 0.06755         & 0.00711         & 0.01064         & 0.02692        & 0.01153\\  
+   \midrule \midrule
+   \multicolumn{9}{l}{\emph{Clustered (canton\_status) standard-errors in parentheses}}\\
+   \multicolumn{9}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
+\end{tabular}
+\par\endgroup
+
+

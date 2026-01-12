@@ -1,0 +1,45 @@
+
+\begingroup
+\centering
+\begin{tabular}{lccccc}
+   \tabularnewline \midrule \midrule
+   Dependent Variable: & \multicolumn{5}{c}{j2j\_jobchangeEE}\\
+   Model:                                         & (1)             & (2)             & (3)             & (4)             & (5)\\  
+   \midrule
+   \emph{Variables}\\
+   Log earnings                                   & -0.0056$^{***}$ & -0.0087$^{***}$ & -0.0076$^{***}$ & -0.0079$^{***}$ & -0.0094$^{***}$\\   
+                                                  & (0.0021)        & (0.0022)        & (0.0027)        & (0.0017)        & (0.0026)\\   
+   Priority enforced                              &                 & -0.0896$^{***}$ &                 &                 & -0.0679$^{***}$\\   
+                                                  &                 & (0.0305)        &                 &                 & (0.0249)\\   
+   Log earnings $\times$ Priority enforced        &                 & 0.0107$^{***}$  &                 &                 & 0.0081$^{**}$\\   
+                                                  &                 & (0.0041)        &                 &                 & (0.0035)\\   
+   Any region restrictions                        &                 &                 & -0.0482$^{*}$   &                 & 0.0147\\   
+                                                  &                 &                 & (0.0255)        &                 & (0.0243)\\   
+   Log earnings $\times$ Any region restrictions  &                 &                 & 0.0063$^{**}$   &                 & -0.0014\\   
+                                                  &                 &                 & (0.0032)        &                 & (0.0030)\\   
+   Any sector restrictions                        &                 &                 &                 & -0.1343$^{***}$ & -0.1137$^{***}$\\   
+                                                  &                 &                 &                 & (0.0478)        & (0.0384)\\   
+   Log earnings $\times$ Any sector restrictions  &                 &                 &                 & 0.0159$^{**}$   & 0.0133$^{**}$\\   
+                                                  &                 &                 &                 & (0.0065)        & (0.0054)\\   
+   Elasticity with restriction                    & -0.1920***      &  0.0681         & -0.0417         &  0.2739         &  0.3577*\\  
+                                                  & (0.0723)        & (0.1367)        & (0.0897)        & (0.2481)        & (0.1961)\\  
+   Elasticity without restriction                 & -0.1920***      & -0.2963***      & -0.2567***      & -0.2670***      & -0.3182***\\  
+                                                  & (0.0723)        & (0.0740)        & (0.0916)        & (0.0572)        & (0.0867)\\  
+   Outcome mean                                   & 0.0294          & 0.0294          & 0.0294          & 0.0294          & 0.0294\\  
+   \midrule
+   \emph{Fixed-effects}\\
+   mon\_since\_ges\_f-status\_f                   & Yes             & Yes             & Yes             & Yes             & Yes\\  
+   Individual FE                                  & Yes             & Yes             & Yes             & Yes             & Yes\\  
+   Month FE                                       & Yes             & Yes             & Yes             & Yes             & Yes\\  
+   \midrule
+   \emph{Fit statistics}\\
+   Observations                                   & 365,015         & 364,782         & 365,015         & 365,015         & 364,782\\  
+   R$^2$                                          & 0.10854         & 0.10877         & 0.10861         & 0.10886         & 0.10898\\  
+   Within R$^2$                                   & 0.00024         & 0.00049         & 0.00031         & 0.00060         & 0.00073\\  
+   \midrule \midrule
+   \multicolumn{6}{l}{\emph{Clustered (canton\_status) standard-errors in parentheses}}\\
+   \multicolumn{6}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
+\end{tabular}
+\par\endgroup
+
+

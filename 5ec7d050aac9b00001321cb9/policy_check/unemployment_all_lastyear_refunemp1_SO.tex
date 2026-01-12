@@ -1,0 +1,30 @@
+
+\begingroup
+\centering
+\begin{tabular}{lccccccccc}
+   \tabularnewline \midrule \midrule
+   Dependent Variables:                & block\_less   & block\_more   & I(p\_block\_num>3)   & scr\_less             & scr\_more             & scr\_total\_restr   & prio\_off2on           & prio\_on2off  & p\_prio\_binary\\    
+   Model:                              & (1)           & (2)           & (3)                  & (4)                   & (5)                   & (6)                 & (7)                    & (8)           & (9)\\  
+   \midrule
+   \emph{Variables}\\
+   Current refugee unemployment        & 0.0044        & 0.0111$^{*}$  & 0.5246$^{***}$       & 0.0141                & -0.0099               & -0.0327             & $-4.97\times 10^{-5}$  & 0.0365        & 0.1920\\   
+                                       & (0.0081)      & (0.0058)      & (0.1975)             & (0.0350)              & (0.0143)              & (0.0325)            & (0.0005)               & (0.0240)      & (0.1267)\\   
+   Avg. refugee unemployment 1-12m ago & 0.0227$^{**}$ & -0.0171$^{*}$ & 0.3669$^{**}$        & -0.0243               & 0.0006                & 0.0966$^{*}$        & -0.0002                & -0.0216       & 0.1985\\   
+                                       & (0.0101)      & (0.0086)      & (0.1540)             & (0.0381)              & (0.0139)              & (0.0540)            & (0.0004)               & (0.0296)      & (0.3230)\\   
+   Joint $F$-test ($p$-value)          & 0.025         & 0.048         & 0.017                & 0.523                 & 0.965                 & 0.074               & 0.587                  & 0.465         & 0.539\\  
+   \midrule
+   \emph{Fixed-effects}\\
+   Canton x status FE                  & Yes           & Yes           & Yes                  & Yes                   & Yes                   & Yes                 & Yes                    & Yes           & Yes\\  
+   Month FE                            & Yes           & Yes           & Yes                  & Yes                   & Yes                   & Yes                 & Yes                    & Yes           & Yes\\  
+   \midrule
+   \emph{Fit statistics}\\
+   Observations                        & 17,944        & 17,932        & 18,048               & 18,993                & 18,837                & 19,032              & 13,899                 & 5,131         & 19,032\\  
+   R$^2$                               & 0.04585       & 0.04561       & 0.57451              & 0.29817               & 0.20294               & 0.89395             & 0.02851                & 0.24660       & 0.80936\\  
+   Within R$^2$                        & 0.00093       & 0.00056       & 0.03232              & $3.67\times 10^{-5}$  & $7.72\times 10^{-5}$  & 0.00216             & $1.22\times 10^{-6}$   & 0.00037       & 0.00452\\  
+   \midrule \midrule
+   \multicolumn{10}{l}{\emph{Clustered (Canton x status FE) standard-errors in parentheses}}\\
+   \multicolumn{10}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
+\end{tabular}
+\par\endgroup
+
+

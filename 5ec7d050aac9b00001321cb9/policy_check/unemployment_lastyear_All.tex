@@ -1,0 +1,30 @@
+
+\begingroup
+\centering
+\begin{tabular}{lccc}
+   \tabularnewline \midrule \midrule
+   Dependent Variables:                & I(p\_block\_num>3)   & scr\_total\_restr   & p\_prio\_binary\\    
+   Model:                              & (1)                  & (2)                 & (3)\\  
+   \midrule
+   \emph{Variables}\\
+   Avg. overall unemployment 1-12m ago & 3.953$^{***}$        & 0.1819              & 1.722\\   
+                                       & (1.396)              & (0.6620)            & (2.735)\\   
+   Avg. refugee unemployment 1-12m ago & 1.081$^{***}$        & 0.0641              & 0.4198\\   
+                                       & (0.2867)             & (0.0595)            & (0.3514)\\   
+   Joint $F$-test ($p$-value)          & <0.001               & 0.539               & 0.319\\  
+   \midrule
+   \emph{Fixed-effects}\\
+   Canton x status FE                  & Yes                  & Yes                 & Yes\\  
+   Month FE                            & Yes                  & Yes                 & Yes\\  
+   \midrule
+   \emph{Fit statistics}\\
+   Observations                        & 18,920               & 19,904              & 19,904\\  
+   R$^2$                               & 0.56713              & 0.89433             & 0.79914\\  
+   Within R$^2$                        & 0.04700              & 0.00210             & 0.00645\\  
+   \midrule \midrule
+   \multicolumn{4}{l}{\emph{Clustered (Canton x status FE) standard-errors in parentheses}}\\
+   \multicolumn{4}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
+\end{tabular}
+\par\endgroup
+
+

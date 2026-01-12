@@ -1,0 +1,37 @@
+
+\begingroup
+\centering
+\begin{tabular}{lcccccccc}
+   \tabularnewline \midrule \midrule
+   Dependent Variables: & \multicolumn{3}{c}{employed\_ahv} & labor\_income10 & labor\_income20 & labor\_income40 & \multicolumn{2}{c}{log\_income}\\
+   Model:                                & (1)             & (2)             & (3)            & (4)            & (5)             & (6)           & (7)       & (8)\\  
+   \midrule
+   \emph{Variables}\\
+   Employment ban                        & -0.0128$^{***}$ & -0.0083$^{**}$  & -0.0097$^{**}$ & -0.0014        & 0.0073          & 0.0195$^{**}$ & 0.0271    & 0.0294\\   
+                                         & (0.0044)        & (0.0035)        & (0.0037)       & (0.0066)       & (0.0088)        & (0.0080)      & (0.0177)  & (0.0175)\\   
+   Priority enforced                     & 0.0097          & 0.0190$^{*}$    & 0.0294         & 0.0357         & 0.0366          & 0.0132        & 0.0037    & -0.0099\\   
+                                         & (0.0186)        & (0.0098)        & (0.0249)       & (0.0217)       & (0.0242)        & (0.0355)      & (0.0593)  & (0.0220)\\   
+   Share restricted jobs                 & 0.0302$^{*}$    & -0.0729         & -0.0318        & -0.0095        & -0.0115         & 0.0307        & 0.1142    & 0.0318\\   
+                                         & (0.0154)        & (0.0487)        & (0.0463)       & (0.0476)       & (0.0566)        & (0.1034)      & (0.1512)  & (0.0864)\\   
+   June 2007 $\times$ Priority enforced  & -0.0220         & -0.0371$^{***}$ & -0.0367$^{**}$ & -0.0395$^{**}$ & -0.0394$^{***}$ & -0.0137       & 0.0101    & 0.0229\\   
+                                         & (0.0132)        & (0.0127)        & (0.0176)       & (0.0150)       & (0.0128)        & (0.0300)      & (0.0365)  & (0.0215)\\   
+   Policy                                & N               & TAF             & Mix            & Mix            & Mix             & Mix           & Mix       & TAF\\  
+   Outcome mean                          & 0.7967          & 0.7967          & 0.7968         & 0.7006         & 0.6160          & 0.4536        & 3,779.0   & 3,778.8\\  
+   Num. individuals                      & 45,045          & 45,045          & 45,045         & 45,045         & 45,045          & 45,045        & 44,174    & 44,175\\  
+   \midrule
+   \emph{Fixed-effects}\\
+   mon\_since\_ges\_f                    & Yes             & Yes             & Yes            & Yes            & Yes             & Yes           & Yes       & Yes\\  
+   canton\_residence\_f                  & Yes             & Yes             & Yes            & Yes            & Yes             & Yes           & Yes       & Yes\\  
+   month\_f                              & Yes             & Yes             & Yes            & Yes            & Yes             & Yes           & Yes       & Yes\\  
+   \midrule
+   \emph{Fit statistics}\\
+   Observations                          & 1,979,002       & 1,979,002       & 1,977,099      & 1,977,099      & 1,977,099       & 1,977,099     & 1,551,215 & 1,552,586\\  
+   R$^2$                                 & 0.02801         & 0.02818         & 0.02815        & 0.05017        & 0.07907         & 0.13187       & 0.10692   & 0.10691\\  
+   Within R$^2$                          & 0.01148         & 0.01166         & 0.01162        & 0.03327        & 0.06193         & 0.10450       & 0.09091   & 0.09091\\  
+   \midrule \midrule
+   \multicolumn{9}{l}{\emph{Clustered (canton\_residence) standard-errors in parentheses}}\\
+   \multicolumn{9}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
+\end{tabular}
+\par\endgroup
+
+

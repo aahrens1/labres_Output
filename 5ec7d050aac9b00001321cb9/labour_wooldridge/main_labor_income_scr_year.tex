@@ -1,0 +1,35 @@
+
+\begingroup
+\centering
+\begin{tabular}{lcccccc}
+   \tabularnewline \midrule \midrule
+   Dependent Variable: & \multicolumn{6}{c}{labor\_income}\\
+   Model:                           & (1)           & (2)           & (3)           & (4)            & (5)            & (6)\\  
+   \midrule
+   \emph{Variables}\\
+   Share restricted jobs            & -0.7745$^{*}$ & 0.1577        & -1.151$^{*}$  & -0.8509$^{**}$ & -0.9560$^{**}$ & -0.5655$^{***}$\\   
+                                    & (0.4482)      & (0.5531)      & (0.6566)      & (0.3431)       & (0.3936)       & (0.1785)\\   
+   Sample                           & N->TAF        & N->TAR        & N->B          & All            & All            & All\\  
+   Outcome mean (CHF)               & 547.6         & 397.5         & 358.2         & 482.5          & 482.6          & 1,014.4\\  
+   Num. individuals                 & 38,962        & 6,441         & 19,337        & 64,740         & 64,892         & 23,172\\  
+   Months-since-arrival FE          & Yes           & Yes           & Yes           & Interacted     & Interacted     & Interacted\\  
+   Additional controls              & Yes           & Yes           & Yes           & Yes            & No             & No\\  
+   \midrule
+   \emph{Fixed-effects}\\
+   mon\_since\_ges\_f-status\_f     & Yes           & Yes           & Yes           & Yes            & Yes            & Yes\\  
+   Canton FE                        & Yes           & Yes           & Yes           & Yes            & Yes            & \\  
+   Month FE                         & Yes           & Yes           & Yes           & Yes            & Yes            & Yes\\  
+   Individual FE                    &               &               &               &                &                & Yes\\  
+   \midrule
+   \emph{Fit statistics}\\
+   Observations                     & 1,624,253     & 226,309       & 694,290       & 2,544,934      & 2,547,327      & 1,211,714\\  
+   Squared Correlation              & 0.19505       & 0.27906       & 0.20601       & 0.19556        & 0.15220        & 0.55827\\  
+   Pseudo R$^2$                     & 0.29132       & 0.41473       & 0.34547       & 0.30622        & 0.26027        & 0.56786\\  
+   BIC                              & 0.6           & 218,252,601.0 & 689,182,530.6 & 0.1            & 0.9            & 1,206,971,898.6\\  
+   \midrule \midrule
+   \multicolumn{7}{l}{\emph{Clustered (canton\_status) standard-errors in parentheses}}\\
+   \multicolumn{7}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
+\end{tabular}
+\par\endgroup
+
+
